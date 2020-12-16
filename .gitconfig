@@ -1,0 +1,7 @@
+[core]
+	editor = vim
+	excludesfile = /home/adam/.gitignore_global
+[user]
+	name = Adam Jedlička
+	email = adajedlicka@gmail.com
+
