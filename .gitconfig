@@ -4,4 +4,8 @@
 [user]
 	name = Adam Jedlička
 	email = adajedlicka@gmail.com
+[push]
+	default = current
+[pull]
+	rebase = false
 
