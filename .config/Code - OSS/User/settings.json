@@ -24,7 +24,7 @@
     "window.menuBarVisibility": "hidden",
     "window.titleBarStyle": "native",
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Atom One Light",
+    "workbench.colorTheme": "Verdandi",
     "workbench.startupEditor": "none",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -53,5 +53,17 @@
                 }
             }
         ]
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 }
