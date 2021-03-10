@@ -1,69 +1,79 @@
 {
-    "breadcrumbs.enabled": false,
-    "editor.acceptSuggestionOnEnter": "off",
-    "editor.dragAndDrop": false,
-    "editor.fontFamily": "'Operator Mono', 'Fira Code', 'Fira Mono'",
-    "editor.fontSize": 16,
-    "editor.fontLigatures": true,
-    "editor.insertSpaces": true,
-    "editor.minimap.enabled": false,
-    "editor.minimap.renderCharacters": false,
-    "editor.quickSuggestionsDelay": 0,
-    "editor.renderIndentGuides": false,
-    "explorer.autoReveal": false,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.openEditors.visible": 0,
-    "extensions.ignoreRecommendations": true,
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "git.enableSmartCommit": true,
-    "window.menuBarVisibility": "hidden",
-    "window.titleBarStyle": "native",
-    "window.zoomLevel": 0,
-    "workbench.colorTheme": "Verdandi",
-    "workbench.startupEditor": "none",
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": "storage",
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            },
-            {
-                "scope": "constant",
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            },
-            {
-                "scope": "keyword.control",
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            },
-            {
-                "scope": "keyword.other",
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            }
-        ]
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[vue]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+  "breadcrumbs.enabled": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.dragAndDrop": false,
+  "editor.fontFamily": "'Operator Mono', 'Fira Code', 'Fira Mono'",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.quickSuggestionsDelay": 0,
+  "editor.renderIndentGuides": false,
+  "explorer.autoReveal": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 0,
+  "extensions.ignoreRecommendations": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "window.menuBarVisibility": "hidden",
+  "window.titleBarStyle": "native",
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Verdandi",
+  "workbench.startupEditor": "none",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "storage",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "constant",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "keyword.control",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "keyword.other",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
