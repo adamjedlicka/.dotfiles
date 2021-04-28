@@ -17,7 +17,7 @@ function fish_prompt
     end
 
     if [ $SSH_CLIENT ]
-        set _ssh (set_color brred)' ['(echo $SSH_CLIENT | awk '{print $1}')']'
+        set _ssh (set_color brred)' ['(echo $SSH_CONNECTION | awk '{print $3}')']'
     else
         set _ssh ''
     end
