@@ -33,9 +33,9 @@ function fish_prompt
 end
 
 function git_info
-    set _git_branch_name (git rev-parse --abbrev-ref HEAD ^/dev/null)
-    set _git_tag_name (git describe --tags --exact-match ^/dev/null)
-    set _is_git_dirty (git status -s --ignore-submodules=dirty ^/dev/null)
+    set _git_branch_name (git rev-parse --abbrev-ref HEAD 2>/dev/null)
+    set _git_tag_name (git describe --tags --exact-match 2>/dev/null)
+    set _is_git_dirty (git status -s --ignore-submodules=dirty 2>/dev/null)
 
     if [ -n "$_git_tag_name" ]
         if [ -n "$_is_git_dirty" ]
